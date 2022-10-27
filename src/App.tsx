@@ -24,9 +24,9 @@ const  App = ()=> {
   }
 
   return (
-    <main className="flex border-2 border-red-100 justify-center items-center bg-slate-800 min-h-screen p-2">
+    <main className="flex border-2 border-red-100 justify-center  bg-slate-800 min-h-screen p-2">
     <section className=' text-slate-200   w-full p-4'>
-    <h1 className='font-bold text-2xl pb-4'>React + Ts</h1>
+    <h1 className='font-bold text-4xl py-20 text-center'>React + Ts</h1>
     <TaskForm createTask={createTask} />
     <TaskList deleteTask={deleteTask} tasks={tasks}/>
     </section>
